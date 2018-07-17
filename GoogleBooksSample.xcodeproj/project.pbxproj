@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A7326CB31A2AE8C03382E0 /* Pods_GoogleBooksSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C8049C55963DC335035389 /* Pods_GoogleBooksSample.framework */; };
+		2C04C4D020FB2B3700F2B958 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04C4CF20FB2B3700F2B958 /* Book.swift */; };
+		2C04C4D220FB31A900F2B958 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C04C4D120FB31A900F2B958 /* DetailViewController.swift */; };
+		2C22C7A020FA1FF000980E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22C79F20FA1FF000980E4C /* AppDelegate.swift */; };
+		2C22C7A220FA1FF000980E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C22C7A120FA1FF000980E4C /* ViewController.swift */; };
+		2C22C7A520FA1FF000980E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C22C7A320FA1FF000980E4C /* Main.storyboard */; };
+		2C22C7A720FA1FF200980E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C22C7A620FA1FF200980E4C /* Assets.xcassets */; };
+		2C22C7AA20FA1FF200980E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C22C7A820FA1FF200980E4C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C04C4CF20FB2B3700F2B958 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2C04C4D120FB31A900F2B958 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2C22C79C20FA1FF000980E4C /* GoogleBooksSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBooksSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C22C79F20FA1FF000980E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C22C7A120FA1FF000980E4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C22C7A420FA1FF000980E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C22C7A620FA1FF200980E4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C22C7A920FA1FF200980E4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C22C7AB20FA1FF200980E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373AACB8E0DB192CB84C2432 /* Pods-GoogleBooksSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksSample/Pods-GoogleBooksSample.release.xcconfig"; sourceTree = "<group>"; };
+		93C8049C55963DC335035389 /* Pods_GoogleBooksSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBooksSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB600FFD2CAFD907F10B71E6 /* Pods-GoogleBooksSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBooksSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBooksSample/Pods-GoogleBooksSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C22C79920FA1FF000980E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A7326CB31A2AE8C03382E0 /* Pods_GoogleBooksSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C22C79320FA1FF000980E4C = {
+			isa = PBXGroup;
+			children = (
+				2C22C79E20FA1FF000980E4C /* GoogleBooksSample */,
+				2C22C79D20FA1FF000980E4C /* Products */,
+				B27B7482A2257DDA9681C5E5 /* Pods */,
+				B0128DB762EE65CE212F0B9B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C22C79D20FA1FF000980E4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C22C79C20FA1FF000980E4C /* GoogleBooksSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C22C79E20FA1FF000980E4C /* GoogleBooksSample */ = {
+			isa = PBXGroup;
+			children = (
+				2C22C79F20FA1FF000980E4C /* AppDelegate.swift */,
+				2C04C4CF20FB2B3700F2B958 /* Book.swift */,
+				2C22C7A120FA1FF000980E4C /* ViewController.swift */,
+				2C04C4D120FB31A900F2B958 /* DetailViewController.swift */,
+				2C22C7A320FA1FF000980E4C /* Main.storyboard */,
+				2C22C7A620FA1FF200980E4C /* Assets.xcassets */,
+				2C22C7A820FA1FF200980E4C /* LaunchScreen.storyboard */,
+				2C22C7AB20FA1FF200980E4C /* Info.plist */,
+			);
+			path = GoogleBooksSample;
+			sourceTree = "<group>";
+		};
+		B0128DB762EE65CE212F0B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93C8049C55963DC335035389 /* Pods_GoogleBooksSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B27B7482A2257DDA9681C5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB600FFD2CAFD907F10B71E6 /* Pods-GoogleBooksSample.debug.xcconfig */,
+				373AACB8E0DB192CB84C2432 /* Pods-GoogleBooksSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C22C79B20FA1FF000980E4C /* GoogleBooksSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C22C7AE20FA1FF200980E4C /* Build configuration list for PBXNativeTarget "GoogleBooksSample" */;
+			buildPhases = (
+				38E22FF1D20A25AFB96AEBDC /* [CP] Check Pods Manifest.lock */,
+				2C22C79820FA1FF000980E4C /* Sources */,
+				2C22C79920FA1FF000980E4C /* Frameworks */,
+				2C22C79A20FA1FF000980E4C /* Resources */,
+				1232968060D310D899E9E514 /* [CP] Embed Pods Frameworks */,
+				73E8509B960ED10C66EC7BBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleBooksSample;
+			productName = GoogleBooksSample;
+			productReference = 2C22C79C20FA1FF000980E4C /* GoogleBooksSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C22C79420FA1FF000980E4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ryo Endo";
+				TargetAttributes = {
+					2C22C79B20FA1FF000980E4C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C22C79720FA1FF000980E4C /* Build configuration list for PBXProject "GoogleBooksSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C22C79320FA1FF000980E4C;
+			productRefGroup = 2C22C79D20FA1FF000980E4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C22C79B20FA1FF000980E4C /* GoogleBooksSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C22C79A20FA1FF000980E4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C22C7AA20FA1FF200980E4C /* LaunchScreen.storyboard in Resources */,
+				2C22C7A720FA1FF200980E4C /* Assets.xcassets in Resources */,
+				2C22C7A520FA1FF000980E4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1232968060D310D899E9E514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBooksSample/Pods-GoogleBooksSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBooksSample/Pods-GoogleBooksSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38E22FF1D20A25AFB96AEBDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleBooksSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73E8509B960ED10C66EC7BBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBooksSample/Pods-GoogleBooksSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C22C79820FA1FF000980E4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C22C7A220FA1FF000980E4C /* ViewController.swift in Sources */,
+				2C22C7A020FA1FF000980E4C /* AppDelegate.swift in Sources */,
+				2C04C4D020FB2B3700F2B958 /* Book.swift in Sources */,
+				2C04C4D220FB31A900F2B958 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C22C7A320FA1FF000980E4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C22C7A420FA1FF000980E4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C22C7A820FA1FF200980E4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C22C7A920FA1FF200980E4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C22C7AC20FA1FF200980E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C22C7AD20FA1FF200980E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C22C7AF20FA1FF200980E4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB600FFD2CAFD907F10B71E6 /* Pods-GoogleBooksSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P8JXGM6U3;
+				INFOPLIST_FILE = GoogleBooksSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freadteam.ryo.GoogleBooksSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C22C7B020FA1FF200980E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373AACB8E0DB192CB84C2432 /* Pods-GoogleBooksSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P8JXGM6U3;
+				INFOPLIST_FILE = GoogleBooksSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freadteam.ryo.GoogleBooksSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C22C79720FA1FF000980E4C /* Build configuration list for PBXProject "GoogleBooksSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C22C7AC20FA1FF200980E4C /* Debug */,
+				2C22C7AD20FA1FF200980E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C22C7AE20FA1FF200980E4C /* Build configuration list for PBXNativeTarget "GoogleBooksSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C22C7AF20FA1FF200980E4C /* Debug */,
+				2C22C7B020FA1FF200980E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C22C79420FA1FF000980E4C /* Project object */;
+}
